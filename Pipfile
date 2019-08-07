@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 tensorflow = "==1.14.0"
+matplotlib = "==3.1.1"
+numpy = "==1.17.0"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
