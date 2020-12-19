@@ -7,9 +7,9 @@
 
 ### Lesson 0 - Environment Setup
 
-Switch to Python 3.7.4
+Switch to Python 3.8.6
 
-    pyenv local 3.7.4
+    pyenv local 3.8.6
 
 Make sure you are running correct version of Python
 

@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
-
+import os
 import tensorflow as tf
 
-h = tf.constant('Hello, TensorFlow!')
-s = tf.compat.v1.Session()
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
 
-print(s.run(h))
+hello = tf.constant('TensorFlow')
+
+print("Hello {} {}!".format(hello.numpy().decode('utf-8'), tf.version.VERSION))
